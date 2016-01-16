@@ -11,6 +11,10 @@
 // about supported directives.
 //
 //= require jquery
+//= require underscore
 //= materialize-sprockets
 //= require jquery_ujs
+//= require react
+//= require react_ujs
+//= require components
 //= require_tree .
