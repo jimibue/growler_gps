@@ -51,6 +51,12 @@ GEM
     builder (3.2.2)
     byebug (8.2.1)
     coderay (1.1.0)
+    coffee-rails (4.1.1)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0, < 5.1.x)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.0)
     connection_pool (2.2.0)
@@ -168,6 +174,7 @@ DEPENDENCIES
   awesome_print
   better_errors
   byebug
+  coffee-rails
   gmaps4rails
   jbuilder (~> 2.0)
   jquery-rails
@@ -185,4 +192,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.11.2
+   1.10.6
